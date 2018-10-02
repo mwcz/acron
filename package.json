@@ -1,0 +1,23 @@
+{
+  "name": "acro",
+  "version": "1.0.0",
+  "description": "Generate acronyms based on the 10,000 most common English words.",
+  "main": "acro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwcz/acro.git"
+  },
+  "keywords": [
+    "acronym",
+    "english"
+  ],
+  "author": "mwcz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwcz/acro/issues"
+  },
+  "homepage": "https://github.com/mwcz/acro#readme"
+}
