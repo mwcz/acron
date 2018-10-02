@@ -1,7 +1,7 @@
 const { chain, sample } = require("lodash");
-const dictionary = require("./words-by-letter.json");
+const dict = require("./words-by-letter.json");
 
-module.exports = function acro(dict, letters) {
+module.exports = function acro(letters) {
     return chain(letters)
         .split('')
         .map(l => dict[l])
