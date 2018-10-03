@@ -1,6 +1,6 @@
 {
   "name": "acron",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate acronyms based on the 10,000 most common English words.",
   "main": "acron.js",
   "bin": "cli.js",
