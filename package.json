@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Generate acronyms based on the 10,000 most common English words.",
   "main": "acron.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mwcz/acron/issues"
   },
-  "homepage": "https://github.com/mwcz/acron#readme"
+  "homepage": "https://github.com/mwcz/acron#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
